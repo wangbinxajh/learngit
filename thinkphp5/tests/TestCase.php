@@ -12,5 +12,6 @@ namespace tests;
 
 class TestCase extends \think\testing\TestCase
 {
+	$a = 100;
     protected $baseUrl = 'http://localhost';
 }
